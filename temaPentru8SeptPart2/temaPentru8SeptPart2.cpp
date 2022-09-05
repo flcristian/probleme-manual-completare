@@ -1,5 +1,5 @@
 #include "solutii.h"
 
 int main() {
-	varianta6();
+	varianta7();
 }

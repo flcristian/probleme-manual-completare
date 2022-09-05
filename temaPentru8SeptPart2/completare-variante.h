@@ -2,6 +2,8 @@
 
 // *EXERCITIILE DE LA EXERCITIUL 3, SUBIECTUL 2*
 
+// TOTAL : 5
+
 // Varianta 3
 //
 // 2 1 1 1 1
@@ -157,6 +159,61 @@ void varianta6() {
 						}
 						else {
 							cout << "0 ";
+						}
+					}
+				}
+			}
+		}
+		cout << endl;
+	}
+}
+
+// Varianta 7
+// 
+// A B C D E F
+// B A B B F B
+// C C A F C C
+// D D A F D D
+// E A E E A E
+// F F F F F A
+//
+// Completam :
+//
+// for(int i = 0; i < 6; i++) {
+//    for(int j = 0; j < 6; j++) {
+//        . . . . . . }
+//    cout << endl; }
+
+void varianta7() {
+	for (int i = 0; i < 6; i++) {
+		for (int j = 0; j < 6; j++) {
+			if (j == i) {
+				cout << "A ";
+			}
+			else {
+				if (j == 5 - i) {
+					cout << "F ";
+				}
+				else {
+					if (i == 1 || (j == 1 && i == 0)) {
+						cout << "B ";
+					}
+					else {
+						if (i == 2 || (j == 2 && i == 0)) {
+							cout << "C ";
+						}
+						else {
+							if (i == 3 || (j == 3 && i == 0)) {
+								cout << "D ";
+							}
+							else {
+								if (i == 4 || (j == 4 && i == 0)) {
+									cout << "E ";
+								}
+								else {
+									cout << "F ";
+								}
+							}
 						}
 					}
 				}

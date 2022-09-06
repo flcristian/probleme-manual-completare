@@ -2,7 +2,7 @@
 
 // *EXERCITIILE DE LA EXERCITIUL 3, SUBIECTUL 2*
 
-// TOTAL : 6
+// TOTAL : 7
 
 // Varianta 3
 //

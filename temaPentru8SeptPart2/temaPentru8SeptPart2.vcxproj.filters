@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="solutii.h">
+    <ClInclude Include="probleme-de-la-matrici.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="functii.h">

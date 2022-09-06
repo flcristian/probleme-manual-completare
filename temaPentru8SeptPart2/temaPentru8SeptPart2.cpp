@@ -1,5 +1,5 @@
-#include "solutii.h"
+#include "probleme-de-la-matrici.h"
 
 int main() {
-	varianta7();
+	varianta9();
 }
